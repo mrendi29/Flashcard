@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.toggle_choices_invisibility).setVisibility(View.VISIBLE);
             }
         });
+        
         // Answers reappear and icon turns default
         findViewById(R.id.toggle_choices_invisibility).setOnClickListener(new View.OnClickListener() {
             @Override
