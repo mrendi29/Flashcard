@@ -14,7 +14,7 @@ This is an application in which Flashcards are used to better help you remember 
 - [x] Build in logic to show the answer side when the card is tapped
 - [x] Push code to GitHub
 
-   -Updates that were made on 10/27/2018
+   -Updates below that were made on 10/27/2018
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
 - [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
 - [x] User can enter and submit a Question and Answer through the 'Add Card Screen'
@@ -27,7 +27,7 @@ This is an application in which Flashcards are used to better help you remember 
    - [x] Change the background color of the multiple choice answers when clicked to indicate whether the question waanswered correctly
 - [x] Further customize and style the card
 
-   -Updates that were made on 27/10/2018
+   -Updates below that were made on 27/10/2018
 - [ ] User can edit a card
 - [ ] An error message is shown if the user doesn't enter both a Question and an Answer
 - [ ] A notification is shown if the card was created successfully
