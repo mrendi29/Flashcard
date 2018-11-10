@@ -32,7 +32,23 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="149dp"
-        android:hint="Enter the answer here." />
+        android:hint="Enter the first answer." />
+
+    <EditText
+        android:id="@+id/editTextAnsw2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Enter the second answer." />
+
+    <EditText
+        android:id="@+id/editTextAnsw3"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp"
+        android:hint="Enter the third answer."/>
 
     <ImageView
         android:layout_width="60dp"
@@ -40,6 +56,8 @@
         android:layout_alignStart="@+id/editTextField"
         android:layout_alignTop="@+id/cancel_sign"
         android:src="@drawable/ic_iconmonstr_save_7"
-        android:id="@+id/save_sign"/>
+        android:id="@+id/save_sign"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>

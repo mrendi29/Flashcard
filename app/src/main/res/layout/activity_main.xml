@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/rootview"
     tools:context=".MainActivity">
 
 
@@ -21,23 +22,104 @@
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"
+
         />
 
-      <TextView
-        android:id="@+id/flashcard_answer"
-        android:layout_width="345dp"
+    <TextView
+        android:id="@+id/card2_answer"
+        android:layout_width="350dp"
         android:layout_height="175dp"
-        android:layout_alignTop="@+id/flashcard_question"
+        android:layout_alignBaseline="@+id/answer2"
         android:layout_centerHorizontal="true"
         android:background="@drawable/card_answer"
-        android:fontFamily="serif"
-        android:gravity="center"
-        android:elevation="20dp"
-        android:text="Barack Obama"
-        android:textAlignment="center"
+        android:visibility="invisible"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:visibility="invisible" />
+        android:fontFamily="serif"
+        android:gravity="center"/>
 
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/card_answer"
+        android:elevation="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Barack Obama"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/card_answer"
+        android:elevation="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Bill Clinton"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp"
+        android:background="@drawable/card_answer"
+        android:elevation="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="George H Bush"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/toggle_choices_visibility"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/eye_on"/>
+
+    <ImageView
+        android:id="@+id/toggle_choices_invisibility"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/eye_off"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/plus_sign"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/toggle_choices_visibility"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ic_iconmonstr_plus_6" />
+
+    <ImageView
+        android:id="@+id/pencil_sign"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/toggle_choices_visibility"
+        android:layout_alignStart="@+id/flashcard_question"
+        android:src="@drawable/ic_iconmonstr_pencil_9" />
 
 </RelativeLayout>
