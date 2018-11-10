@@ -5,7 +5,7 @@ This is an application in which Flashcards are used to better help you remember 
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/vynA6U0KtK.gif" width=200><br>
+<img src="http://g.recordit.co/vpR3pMRYIp.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
