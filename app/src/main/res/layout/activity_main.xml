@@ -9,21 +9,19 @@
 
     <TextView
         android:id="@+id/flashcard_question"
-        android:layout_width="351dp"
+        android:layout_width="match_parent"
         android:layout_height="176dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
+
+
         android:background="@drawable/card_background"
-        android:elevation="20dp"
         android:fontFamily="serif"
         android:gravity="center"
-        android:text="Who is the 44th President of the United States"
+        android:text="Who is the 44th President of the United States?"
         android:textAlignment="center"
-        android:textSize="40sp"
-        android:textStyle="bold"
-
-        />
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/card2_answer"
@@ -44,7 +42,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="85dp"
+        android:layout_marginBottom="91dp"
         android:background="@drawable/card_answer"
         android:elevation="20dp"
         android:fontFamily="serif"
@@ -60,7 +58,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="163dp"
+        android:layout_marginBottom="158dp"
         android:background="@drawable/card_answer"
         android:elevation="20dp"
         android:fontFamily="serif"
@@ -74,9 +72,7 @@
         android:id="@+id/answer2"
         android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="209dp"
+        android:layout_centerInParent="true"
         android:background="@drawable/card_answer"
         android:elevation="20dp"
         android:fontFamily="serif"
@@ -107,19 +103,29 @@
 
     <ImageView
         android:id="@+id/plus_sign"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="59dp"
+        android:layout_height="51dp"
         android:layout_alignBottom="@+id/toggle_choices_visibility"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="25dp"
         android:src="@drawable/ic_iconmonstr_plus_6" />
 
     <ImageView
         android:id="@+id/pencil_sign"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="51dp"
+        android:layout_height="53dp"
         android:layout_alignBottom="@+id/toggle_choices_visibility"
-        android:layout_alignStart="@+id/flashcard_question"
+        android:layout_alignStart="@+id/card2_answer"
         android:src="@drawable/ic_iconmonstr_pencil_9" />
+
+    <ImageView
+        android:id="@+id/next_sign"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:elevation="10dp"
+        app:srcCompat="@drawable/ic_iconmonstr_arrow_25" />
 
 </RelativeLayout>

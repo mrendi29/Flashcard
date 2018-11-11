@@ -15,7 +15,7 @@ public class AddCardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_card);
-        // Process 1 
+        // Process 1
         // Again order is important. you are getting the information from the other activity before launching it.
 
 //We modify the edittext by finding its id and we set its content to be equal to the string we got from the other activity
