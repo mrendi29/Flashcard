@@ -5,7 +5,7 @@ This is an application in which Flashcards are used to better help you remember 
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/PDWhaO3lAN.gif" width=200><br>
+<img src="http://g.recordit.co/GS93Ba4TAI.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
@@ -23,6 +23,11 @@ This is an application in which Flashcards are used to better help you remember 
    -Updates below that were made on 11/10/2018 (Required)
 - [x] User can create a card and still see their created card when the app is relaunched.
 - [x] User can create muliple cards and browse through all created cards
+
+   -Updates below that were made on 11/24/2018
+- [x] User sees a transition animation when going from the main screen to the add card screen.
+- [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
+- [x] User sees flashcards animating in / out when the 'next' button is tapped
 ## Optional
 - [x] toggle the flashcard between the question side and the answer side
 - [x] Style the question and answer side of the card to better distinguish between the two sides
@@ -38,7 +43,13 @@ This is an application in which Flashcards are used to better help you remember 
 - [x] App is further styled and customized!
    
      -Updates below that were made on TBA   (Optional)
-- [ ] User can delete a card and no longer see it in their deck anymore
+- [x] User can delete a card and no longer see it in their deck anymore
 - [ ] Flashcards are shown in random order instead of the order they were created in
 - [ ] User can edit a card and see the edit saved when they browse through their deck of cards
 - [ ] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
+
+   -TBA
+- [x] Extra styling is added!
+- [ ] User sees a countdown timer for each question
+- [ ] User sees a 'card flip' animation when the card is tapped
+- [ ] User sees a celebration animation with confetti when they answer a question correctly
