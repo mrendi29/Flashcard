@@ -5,7 +5,7 @@ This is an application in which Flashcards are used to better help you remember 
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/vhYnp11QEM.gif" width=200><br>
+<img src="http://g.recordit.co/GS93Ba4TAI.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
@@ -26,7 +26,7 @@ This is an application in which Flashcards are used to better help you remember 
 
    -Updates below that were made on 11/24/2018
 - [x] User sees a transition animation when going from the main screen to the add card screen.
-- [ ] User sees a reveal animation when the flashcard is tapped and the answer is shown
+- [x] User sees a reveal animation when the flashcard is tapped and the answer is shown
 - [x] User sees flashcards animating in / out when the 'next' button is tapped
 ## Optional
 - [x] toggle the flashcard between the question side and the answer side
