@@ -48,7 +48,7 @@ This is an application in which Flashcards are used to better help you remember 
 - [ ] User can edit a card and see the edit saved when they browse through their deck of cards
 - [ ] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
 
-      -TBA
+   -TBA
 - [x] Extra styling is added!
 - [ ] User sees a countdown timer for each question
 - [ ] User sees a 'card flip' animation when the card is tapped
