@@ -8,4 +8,6 @@
     <color name="yellow">#F4FF87</color>
     <color name="red">#FF0000</color>
     <color name="green">#44AB00</color>
+    <color name="bottom.col">#42f4ee</color>
+    <color name="fancy">#003366</color>
 </resources>
