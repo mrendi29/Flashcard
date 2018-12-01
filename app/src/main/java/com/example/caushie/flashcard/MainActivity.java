@@ -3,6 +3,7 @@ package com.example.caushie.flashcard;
 import android.animation.Animator;
 import android.content.Intent;
 import android.media.Image;
+import android.os.CountDownTimer;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +21,10 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private void startTimer() {
+        countDownTimer.cancel();
+        countDownTimer.start();
+    }
 
     boolean isShowingAnswers = true;
     // 1.1  We create an instance of our database so we can read/write it.
@@ -33,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
     int currentCardDisplayIndex = 0;
 
+    // Creating a Countdown Timer
+
+    CountDownTimer countDownTimer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +54,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // 3. We can acces the cards after initialized.
         allFlashcards = flashcardDatabase.getAllCards();
+
+
+        countDownTimer = new CountDownTimer(16000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                ((TextView) findViewById(R.id.timer)).setText(""+millisUntilFinished/1000);
+
+            }
+
+            @Override
+            public void onFinish() {
+
+            }
+        };
+        startTimer();
+
 
         //Gets the flashcards in the database at position 0. Should always be in Oncreate because
         // it'll first check the database to see if there's any saved flashcards before
@@ -196,6 +220,8 @@ public class MainActivity extends AppCompatActivity {
 
                 final Animation leftOutAnim = AnimationUtils.loadAnimation(v.getContext(), R.anim.left_out);
                 final Animation rightInAnim = AnimationUtils.loadAnimation(v.getContext(), R.anim.right_in);
+
+                     startTimer();
 
                 if (allFlashcards.size() == 1 || allFlashcards.size() == 0) {
                     Toast.makeText(getApplicationContext(), "No saved flashcards", Toast.LENGTH_SHORT).show();
