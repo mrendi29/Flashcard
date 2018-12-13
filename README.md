@@ -42,9 +42,9 @@ This is an application in which Flashcards are used to better help you remember 
 - [x] User can also enter multiple choice answers when creating a card
 - [x] App is further styled and customized!
    
-     -Updates below that were made on TBA   (Optional)
+     -Updates below that were made on 12/12/2018
 - [x] User can delete a card and no longer see it in their deck anymore
-- [ ] Flashcards are shown in random order instead of the order they were created in
+- [x] Flashcards are shown in random order instead of the order they were created in
 - [ ] User can edit a card and see the edit saved when they browse through their deck of cards
 - [x] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
 
