@@ -3,7 +3,7 @@
 ### App Description
 This is an application in which Flashcards are used to better help you remember a certain topic.
 
-### App Walk-Through
+### App Walk-though
 
 <img src="http://g.recordit.co/GS93Ba4TAI.gif" width=200><br>
 
